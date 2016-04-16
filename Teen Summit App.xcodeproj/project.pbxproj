@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */; };
+		64C1D59F1CC284D6003F0AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D59E1CC284D6003F0AA4 /* ViewController.swift */; };
+		64C1D5A21CC284D6003F0AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C1D5A01CC284D6003F0AA4 /* Main.storyboard */; };
+		64C1D5A51CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D5A31CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld */; };
+		64C1D5A71CC284D6003F0AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C1D5A61CC284D6003F0AA4 /* Assets.xcassets */; };
+		64C1D5AA1CC284D6003F0AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C1D5A81CC284D6003F0AA4 /* LaunchScreen.storyboard */; };
+		64C1D5B51CC284D6003F0AA4 /* Teen_Summit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D5B41CC284D6003F0AA4 /* Teen_Summit_AppTests.swift */; };
+		64C1D5C01CC284D6003F0AA4 /* Teen_Summit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D5BF1CC284D6003F0AA4 /* Teen_Summit_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C1D5B11CC284D6003F0AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C1D5911CC284D6003F0AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C1D5981CC284D6003F0AA4;
+			remoteInfo = "Teen Summit App";
+		};
+		64C1D5BC1CC284D6003F0AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C1D5911CC284D6003F0AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C1D5981CC284D6003F0AA4;
+			remoteInfo = "Teen Summit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64C1D5991CC284D6003F0AA4 /* Teen Summit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teen Summit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64C1D59E1CC284D6003F0AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64C1D5A11CC284D6003F0AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64C1D5A41CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teen_Summit_App.xcdatamodel; sourceTree = "<group>"; };
+		64C1D5A61CC284D6003F0AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C1D5A91CC284D6003F0AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64C1D5AB1CC284D6003F0AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C1D5B01CC284D6003F0AA4 /* Teen Summit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teen Summit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C1D5B41CC284D6003F0AA4 /* Teen_Summit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teen_Summit_AppTests.swift; sourceTree = "<group>"; };
+		64C1D5B61CC284D6003F0AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C1D5BB1CC284D6003F0AA4 /* Teen Summit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teen Summit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C1D5BF1CC284D6003F0AA4 /* Teen_Summit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teen_Summit_AppUITests.swift; sourceTree = "<group>"; };
+		64C1D5C11CC284D6003F0AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C1D5961CC284D6003F0AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C1D5AD1CC284D6003F0AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C1D5B81CC284D6003F0AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C1D5901CC284D6003F0AA4 = {
+			isa = PBXGroup;
+			children = (
+				64C1D59B1CC284D6003F0AA4 /* Teen Summit App */,
+				64C1D5B31CC284D6003F0AA4 /* Teen Summit AppTests */,
+				64C1D5BE1CC284D6003F0AA4 /* Teen Summit AppUITests */,
+				64C1D59A1CC284D6003F0AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C1D59A1CC284D6003F0AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C1D5991CC284D6003F0AA4 /* Teen Summit App.app */,
+				64C1D5B01CC284D6003F0AA4 /* Teen Summit AppTests.xctest */,
+				64C1D5BB1CC284D6003F0AA4 /* Teen Summit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C1D59B1CC284D6003F0AA4 /* Teen Summit App */ = {
+			isa = PBXGroup;
+			children = (
+				64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */,
+				64C1D59E1CC284D6003F0AA4 /* ViewController.swift */,
+				64C1D5A01CC284D6003F0AA4 /* Main.storyboard */,
+				64C1D5A61CC284D6003F0AA4 /* Assets.xcassets */,
+				64C1D5A81CC284D6003F0AA4 /* LaunchScreen.storyboard */,
+				64C1D5AB1CC284D6003F0AA4 /* Info.plist */,
+				64C1D5A31CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld */,
+			);
+			path = "Teen Summit App";
+			sourceTree = "<group>";
+		};
+		64C1D5B31CC284D6003F0AA4 /* Teen Summit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				64C1D5B41CC284D6003F0AA4 /* Teen_Summit_AppTests.swift */,
+				64C1D5B61CC284D6003F0AA4 /* Info.plist */,
+			);
+			path = "Teen Summit AppTests";
+			sourceTree = "<group>";
+		};
+		64C1D5BE1CC284D6003F0AA4 /* Teen Summit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64C1D5BF1CC284D6003F0AA4 /* Teen_Summit_AppUITests.swift */,
+				64C1D5C11CC284D6003F0AA4 /* Info.plist */,
+			);
+			path = "Teen Summit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C1D5981CC284D6003F0AA4 /* Teen Summit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C1D5C41CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit App" */;
+			buildPhases = (
+				64C1D5951CC284D6003F0AA4 /* Sources */,
+				64C1D5961CC284D6003F0AA4 /* Frameworks */,
+				64C1D5971CC284D6003F0AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teen Summit App";
+			productName = "Teen Summit App";
+			productReference = 64C1D5991CC284D6003F0AA4 /* Teen Summit App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C1D5AF1CC284D6003F0AA4 /* Teen Summit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C1D5C71CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit AppTests" */;
+			buildPhases = (
+				64C1D5AC1CC284D6003F0AA4 /* Sources */,
+				64C1D5AD1CC284D6003F0AA4 /* Frameworks */,
+				64C1D5AE1CC284D6003F0AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C1D5B21CC284D6003F0AA4 /* PBXTargetDependency */,
+			);
+			name = "Teen Summit AppTests";
+			productName = "Teen Summit AppTests";
+			productReference = 64C1D5B01CC284D6003F0AA4 /* Teen Summit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64C1D5BA1CC284D6003F0AA4 /* Teen Summit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C1D5CA1CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit AppUITests" */;
+			buildPhases = (
+				64C1D5B71CC284D6003F0AA4 /* Sources */,
+				64C1D5B81CC284D6003F0AA4 /* Frameworks */,
+				64C1D5B91CC284D6003F0AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C1D5BD1CC284D6003F0AA4 /* PBXTargetDependency */,
+			);
+			name = "Teen Summit AppUITests";
+			productName = "Teen Summit AppUITests";
+			productReference = 64C1D5BB1CC284D6003F0AA4 /* Teen Summit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C1D5911CC284D6003F0AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jamone Kelly";
+				TargetAttributes = {
+					64C1D5981CC284D6003F0AA4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					64C1D5AF1CC284D6003F0AA4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 64C1D5981CC284D6003F0AA4;
+					};
+					64C1D5BA1CC284D6003F0AA4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 64C1D5981CC284D6003F0AA4;
+					};
+				};
+			};
+			buildConfigurationList = 64C1D5941CC284D6003F0AA4 /* Build configuration list for PBXProject "Teen Summit App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64C1D5901CC284D6003F0AA4;
+			productRefGroup = 64C1D59A1CC284D6003F0AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C1D5981CC284D6003F0AA4 /* Teen Summit App */,
+				64C1D5AF1CC284D6003F0AA4 /* Teen Summit AppTests */,
+				64C1D5BA1CC284D6003F0AA4 /* Teen Summit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C1D5971CC284D6003F0AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C1D5AA1CC284D6003F0AA4 /* LaunchScreen.storyboard in Resources */,
+				64C1D5A71CC284D6003F0AA4 /* Assets.xcassets in Resources */,
+				64C1D5A21CC284D6003F0AA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C1D5AE1CC284D6003F0AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C1D5B91CC284D6003F0AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C1D5951CC284D6003F0AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C1D59F1CC284D6003F0AA4 /* ViewController.swift in Sources */,
+				64C1D5A51CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld in Sources */,
+				64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C1D5AC1CC284D6003F0AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C1D5B51CC284D6003F0AA4 /* Teen_Summit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C1D5B71CC284D6003F0AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C1D5C01CC284D6003F0AA4 /* Teen_Summit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C1D5B21CC284D6003F0AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C1D5981CC284D6003F0AA4 /* Teen Summit App */;
+			targetProxy = 64C1D5B11CC284D6003F0AA4 /* PBXContainerItemProxy */;
+		};
+		64C1D5BD1CC284D6003F0AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C1D5981CC284D6003F0AA4 /* Teen Summit App */;
+			targetProxy = 64C1D5BC1CC284D6003F0AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64C1D5A01CC284D6003F0AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C1D5A11CC284D6003F0AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64C1D5A81CC284D6003F0AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C1D5A91CC284D6003F0AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64C1D5C21CC284D6003F0AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64C1D5C31CC284D6003F0AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C1D5C51CC284D6003F0AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Teen Summit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mehe.presentationapp.Teen-Summit-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64C1D5C61CC284D6003F0AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Teen Summit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mehe.presentationapp.Teen-Summit-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64C1D5C81CC284D6003F0AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Teen Summit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mehe.presentationapp.Teen-Summit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teen Summit App.app/Teen Summit App";
+			};
+			name = Debug;
+		};
+		64C1D5C91CC284D6003F0AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Teen Summit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mehe.presentationapp.Teen-Summit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teen Summit App.app/Teen Summit App";
+			};
+			name = Release;
+		};
+		64C1D5CB1CC284D6003F0AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Teen Summit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mehe.presentationapp.Teen-Summit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Teen Summit App";
+			};
+			name = Debug;
+		};
+		64C1D5CC1CC284D6003F0AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Teen Summit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.mehe.presentationapp.Teen-Summit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Teen Summit App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C1D5941CC284D6003F0AA4 /* Build configuration list for PBXProject "Teen Summit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C1D5C21CC284D6003F0AA4 /* Debug */,
+				64C1D5C31CC284D6003F0AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C1D5C41CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C1D5C51CC284D6003F0AA4 /* Debug */,
+				64C1D5C61CC284D6003F0AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64C1D5C71CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C1D5C81CC284D6003F0AA4 /* Debug */,
+				64C1D5C91CC284D6003F0AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64C1D5CA1CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C1D5CB1CC284D6003F0AA4 /* Debug */,
+				64C1D5CC1CC284D6003F0AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64C1D5A31CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64C1D5A41CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodel */,
+			);
+			currentVersion = 64C1D5A41CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodel */;
+			path = Teen_Summit_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64C1D5911CC284D6003F0AA4 /* Project object */;
+}
