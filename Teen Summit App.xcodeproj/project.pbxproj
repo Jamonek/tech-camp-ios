@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4017585B91DB23DE0F3571E2 /* Pods_Teen_Summit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1DE2633B484650859CD734 /* Pods_Teen_Summit_App.framework */; };
 		64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */; };
 		64C1D59F1CC284D6003F0AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D59E1CC284D6003F0AA4 /* ViewController.swift */; };
 		64C1D5A21CC284D6003F0AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C1D5A01CC284D6003F0AA4 /* Main.storyboard */; };
@@ -49,6 +50,9 @@
 		64C1D5BB1CC284D6003F0AA4 /* Teen Summit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teen Summit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C1D5BF1CC284D6003F0AA4 /* Teen_Summit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teen_Summit_AppUITests.swift; sourceTree = "<group>"; };
 		64C1D5C11CC284D6003F0AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1DE2633B484650859CD734 /* Pods_Teen_Summit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teen_Summit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF90FC363D895CA055FC69D4 /* Pods-Teen Summit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teen Summit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teen Summit App/Pods-Teen Summit App.debug.xcconfig"; sourceTree = "<group>"; };
+		EB4EC5D613F12D46ACCB6312 /* Pods-Teen Summit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teen Summit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teen Summit App/Pods-Teen Summit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4017585B91DB23DE0F3571E2 /* Pods_Teen_Summit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022F6FD5323BDCFD2A18FA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1DE2633B484650859CD734 /* Pods_Teen_Summit_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		64C1D5901CC284D6003F0AA4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,8 @@
 				64C1D5B31CC284D6003F0AA4 /* Teen Summit AppTests */,
 				64C1D5BE1CC284D6003F0AA4 /* Teen Summit AppUITests */,
 				64C1D59A1CC284D6003F0AA4 /* Products */,
+				E653092FFD00C010C9D3FF4B /* Pods */,
+				022F6FD5323BDCFD2A18FA02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +143,15 @@
 			path = "Teen Summit AppUITests";
 			sourceTree = "<group>";
 		};
+		E653092FFD00C010C9D3FF4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF90FC363D895CA055FC69D4 /* Pods-Teen Summit App.debug.xcconfig */,
+				EB4EC5D613F12D46ACCB6312 /* Pods-Teen Summit App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C1D5C41CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit App" */;
 			buildPhases = (
+				CDB0CEBC934A6DD353D2E10F /* 📦 Check Pods Manifest.lock */,
 				64C1D5951CC284D6003F0AA4 /* Sources */,
 				64C1D5961CC284D6003F0AA4 /* Frameworks */,
 				64C1D5971CC284D6003F0AA4 /* Resources */,
+				DE50BE2C8FCE6218A3202C89 /* 📦 Embed Pods Frameworks */,
+				B9A2FAC9B40BCA73F0CAFEC6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9A2FAC9B40BCA73F0CAFEC6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teen Summit App/Pods-Teen Summit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB0CEBC934A6DD353D2E10F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE50BE2C8FCE6218A3202C89 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teen Summit App/Pods-Teen Summit App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64C1D5951CC284D6003F0AA4 /* Sources */ = {
@@ -401,6 +476,7 @@
 		};
 		64C1D5C51CC284D6003F0AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF90FC363D895CA055FC69D4 /* Pods-Teen Summit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Teen Summit App/Info.plist";
@@ -412,6 +488,7 @@
 		};
 		64C1D5C61CC284D6003F0AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4EC5D613F12D46ACCB6312 /* Pods-Teen Summit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Teen Summit App/Info.plist";
@@ -486,6 +563,7 @@
 				64C1D5C61CC284D6003F0AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64C1D5C71CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit AppTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +572,7 @@
 				64C1D5C91CC284D6003F0AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64C1D5CA1CC284D6003F0AA4 /* Build configuration list for PBXNativeTarget "Teen Summit AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +581,7 @@
 				64C1D5CC1CC284D6003F0AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
