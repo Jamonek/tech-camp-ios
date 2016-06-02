@@ -6,4 +6,11 @@
 //  Copyright © 2016 Jamone Kelly. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class AnnouncementsVC: UIViewController {
+    
+    override func viewDidLoad() {
+        // TODO: Announcements
+    }
+}
