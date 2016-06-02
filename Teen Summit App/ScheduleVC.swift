@@ -8,9 +8,11 @@
 
 import UIKit
 
-class ScheduleVC: UIViewController {
+class ScheduleVC: BaseVC {
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Schedule"
         // TODO: Schedule
     }
 }

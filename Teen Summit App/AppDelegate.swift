@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
+        //UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "AvenirNext-DemiBold", size: 26)!]
         Chameleon.setGlobalThemeUsingPrimaryColor(UIColor(hexString: "315ABC"), withContentStyle: .Contrast)
         return true
     }

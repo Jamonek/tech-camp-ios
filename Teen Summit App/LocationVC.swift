@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import MapKit
 
-class LocationVC: UIViewController {
+class LocationVC: BaseVC {
+    @IBOutlet var mapView: MKMapView!
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Map"
         // TODO: Location
     }
 }

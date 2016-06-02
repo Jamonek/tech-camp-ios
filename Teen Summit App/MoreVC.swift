@@ -8,9 +8,11 @@
 
 import UIKit
 
-class MoreVC: UIViewController {
+class MoreVC: BaseVC {
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "More"
         // TODO: More
     }
 }

@@ -8,9 +8,11 @@
 
 import UIKit
 
-class AnnouncementsVC: UIViewController {
+class AnnouncementsVC: BaseVC {
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Announcements"
         // TODO: Announcements
     }
 }

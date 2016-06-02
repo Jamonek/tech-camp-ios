@@ -9,7 +9,7 @@
         <!--Schedule-->
         <scene sceneID="dnl-jE-JXw">
             <objects>
-                <viewController title="Schedule" id="Cvj-he-cdd" sceneMemberID="viewController">
+                <viewController title="Schedule" id="Cvj-he-cdd" customClass="ScheduleVC" customModule="Teen_Summit_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5ZP-Wc-rEi"/>
                         <viewControllerLayoutGuide type="bottom" id="JCc-Dg-mV2"/>
@@ -37,7 +37,7 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2E7-cj-x52">
                                                     <rect key="frame" x="27" y="44" width="21" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -70,7 +70,7 @@
         <!--Announcements-->
         <scene sceneID="Ouv-6z-x67">
             <objects>
-                <viewController title="Announcements" id="gbf-Nc-A0k" sceneMemberID="viewController">
+                <viewController title="Announcements" id="gbf-Nc-A0k" customClass="AnnouncementsVC" customModule="Teen_Summit_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Afq-aS-p33"/>
                         <viewControllerLayoutGuide type="bottom" id="WWP-zI-4OO"/>
@@ -163,7 +163,7 @@
         <!--More-->
         <scene sceneID="bGR-Ly-QAg">
             <objects>
-                <viewController title="More" id="HHx-H7-7xs" sceneMemberID="viewController">
+                <viewController title="More" id="HHx-H7-7xs" customClass="MoreVC" customModule="Teen_Summit_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Lg-vt-JbU"/>
                         <viewControllerLayoutGuide type="bottom" id="rIW-0Y-Mxe"/>
@@ -182,7 +182,7 @@
         <!--Map-->
         <scene sceneID="lvc-WS-sEb">
             <objects>
-                <viewController title="Map" id="pa4-R7-Rfp" sceneMemberID="viewController">
+                <viewController title="Map" id="pa4-R7-Rfp" customClass="LocationVC" customModule="Teen_Summit_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M4D-93-6w5"/>
                         <viewControllerLayoutGuide type="bottom" id="PVP-Ja-TiH"/>
@@ -191,13 +191,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="13T-P6-myg">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="13T-P6-myg">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="13T-P6-myg" firstAttribute="leading" secondItem="BEM-zr-5n4" secondAttribute="leading" id="4oO-q5-cfg"/>
+                            <constraint firstAttribute="trailing" secondItem="13T-P6-myg" secondAttribute="trailing" id="KZV-6Y-EkQ"/>
+                            <constraint firstItem="13T-P6-myg" firstAttribute="top" secondItem="M4D-93-6w5" secondAttribute="bottom" id="TgP-UC-rfd"/>
+                            <constraint firstItem="13T-P6-myg" firstAttribute="bottom" secondItem="PVP-Ja-TiH" secondAttribute="top" id="bdQ-pi-AoW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BWe-FK-ucc"/>
+                    <connections>
+                        <outlet property="mapView" destination="13T-P6-myg" id="4cK-Ns-lwg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y6K-js-TFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,6 +12,8 @@
 		64A345321D00830300C1A938 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345311D00830300C1A938 /* ScheduleVC.swift */; };
 		64A345341D00830E00C1A938 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345331D00830E00C1A938 /* LocationVC.swift */; };
 		64A345361D00831B00C1A938 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345351D00831B00C1A938 /* MoreVC.swift */; };
+		64A345381D00893800C1A938 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A345371D00893800C1A938 /* MapKit.framework */; };
+		64A3453A1D008E6500C1A938 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345391D008E6500C1A938 /* BaseVC.swift */; };
 		64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */; };
 		64C1D5A21CC284D6003F0AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C1D5A01CC284D6003F0AA4 /* Main.storyboard */; };
 		64C1D5A51CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D5A31CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld */; };
@@ -43,6 +45,8 @@
 		64A345311D00830300C1A938 /* ScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
 		64A345331D00830E00C1A938 /* LocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		64A345351D00831B00C1A938 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		64A345371D00893800C1A938 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		64A345391D008E6500C1A938 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		64C1D5991CC284D6003F0AA4 /* Teen Summit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teen Summit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C1D5A11CC284D6003F0AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A345381D00893800C1A938 /* MapKit.framework in Frameworks */,
 				4017585B91DB23DE0F3571E2 /* Pods_Teen_Summit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +95,7 @@
 		022F6FD5323BDCFD2A18FA02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64A345371D00893800C1A938 /* MapKit.framework */,
 				BC1DE2633B484650859CD734 /* Pods_Teen_Summit_App.framework */,
 			);
 			name = Frameworks;
@@ -102,6 +108,7 @@
 				64A345311D00830300C1A938 /* ScheduleVC.swift */,
 				64A345331D00830E00C1A938 /* LocationVC.swift */,
 				64A345351D00831B00C1A938 /* MoreVC.swift */,
+				64A345391D008E6500C1A938 /* BaseVC.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -240,6 +247,15 @@
 				TargetAttributes = {
 					64C1D5981CC284D6003F0AA4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W29D5BE398;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					64C1D5AF1CC284D6003F0AA4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -356,6 +372,7 @@
 				64A345361D00831B00C1A938 /* MoreVC.swift in Sources */,
 				64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */,
 				64A345301D0082F900C1A938 /* AnnouncementsVC.swift in Sources */,
+				64A3453A1D008E6500C1A938 /* BaseVC.swift in Sources */,
 				64A345341D00830E00C1A938 /* LocationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
