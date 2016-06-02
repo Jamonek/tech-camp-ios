@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4017585B91DB23DE0F3571E2 /* Pods_Teen_Summit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1DE2633B484650859CD734 /* Pods_Teen_Summit_App.framework */; };
+		64A345301D0082F900C1A938 /* AnnouncementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3452F1D0082F900C1A938 /* AnnouncementsVC.swift */; };
+		64A345321D00830300C1A938 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345311D00830300C1A938 /* ScheduleVC.swift */; };
+		64A345341D00830E00C1A938 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345331D00830E00C1A938 /* LocationVC.swift */; };
+		64A345361D00831B00C1A938 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345351D00831B00C1A938 /* MoreVC.swift */; };
 		64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */; };
-		64C1D59F1CC284D6003F0AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D59E1CC284D6003F0AA4 /* ViewController.swift */; };
 		64C1D5A21CC284D6003F0AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C1D5A01CC284D6003F0AA4 /* Main.storyboard */; };
 		64C1D5A51CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C1D5A31CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld */; };
 		64C1D5A71CC284D6003F0AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C1D5A61CC284D6003F0AA4 /* Assets.xcassets */; };
@@ -36,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64A3452F1D0082F900C1A938 /* AnnouncementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsVC.swift; sourceTree = "<group>"; };
+		64A345311D00830300C1A938 /* ScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		64A345331D00830E00C1A938 /* LocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		64A345351D00831B00C1A938 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
 		64C1D5991CC284D6003F0AA4 /* Teen Summit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teen Summit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64C1D59E1CC284D6003F0AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64C1D5A11CC284D6003F0AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64C1D5A41CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teen_Summit_App.xcdatamodel; sourceTree = "<group>"; };
 		64C1D5A61CC284D6003F0AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +95,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		64A3452E1D0082CF00C1A938 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64A3452F1D0082F900C1A938 /* AnnouncementsVC.swift */,
+				64A345311D00830300C1A938 /* ScheduleVC.swift */,
+				64A345331D00830E00C1A938 /* LocationVC.swift */,
+				64A345351D00831B00C1A938 /* MoreVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		64C1D5901CC284D6003F0AA4 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +131,8 @@
 		64C1D59B1CC284D6003F0AA4 /* Teen Summit App */ = {
 			isa = PBXGroup;
 			children = (
+				64A3452E1D0082CF00C1A938 /* ViewControllers */,
 				64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */,
-				64C1D59E1CC284D6003F0AA4 /* ViewController.swift */,
 				64C1D5A01CC284D6003F0AA4 /* Main.storyboard */,
 				64C1D5A61CC284D6003F0AA4 /* Assets.xcassets */,
 				64C1D5A81CC284D6003F0AA4 /* LaunchScreen.storyboard */,
@@ -334,9 +351,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C1D59F1CC284D6003F0AA4 /* ViewController.swift in Sources */,
+				64A345321D00830300C1A938 /* ScheduleVC.swift in Sources */,
 				64C1D5A51CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld in Sources */,
+				64A345361D00831B00C1A938 /* MoreVC.swift in Sources */,
 				64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */,
+				64A345301D0082F900C1A938 /* AnnouncementsVC.swift in Sources */,
+				64A345341D00830E00C1A938 /* LocationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
