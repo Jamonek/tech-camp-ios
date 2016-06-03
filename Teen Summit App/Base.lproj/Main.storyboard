@@ -93,33 +93,39 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6y-MW-hCS">
                                                     <rect key="frame" x="8" y="0.0" width="191" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="191" id="0ng-3r-sLS"/>
+                                                        <constraint firstAttribute="height" constant="21" id="IJE-tw-cRV"/>
+                                                        <constraint firstAttribute="width" constant="191" id="cgv-B5-8bi"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKU-UY-Aa7">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKU-UY-Aa7">
                                                     <rect key="frame" x="8" y="40" width="584" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cell time ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKV-4g-acm">
                                                     <rect key="frame" x="495" y="0.0" width="97" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="97" id="DZc-gS-1xY"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="leading" secondItem="dQk-H8-Rex" secondAttribute="leadingMargin" id="4Bc-4a-or4"/>
-                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="leading" secondItem="YKU-UY-Aa7" secondAttribute="leading" id="ImH-lg-yHc"/>
-                                                <constraint firstItem="YKU-UY-Aa7" firstAttribute="bottom" secondItem="dQk-H8-Rex" secondAttribute="bottomMargin" id="O2y-F9-6DF"/>
-                                                <constraint firstItem="VKV-4g-acm" firstAttribute="trailing" secondItem="dQk-H8-Rex" secondAttribute="trailingMargin" id="ZaA-ep-CbE"/>
-                                                <constraint firstItem="VKV-4g-acm" firstAttribute="trailing" secondItem="YKU-UY-Aa7" secondAttribute="trailing" id="fAn-eT-cqb"/>
-                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="baseline" secondItem="VKV-4g-acm" secondAttribute="baseline" id="iCb-fp-haV"/>
-                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="top" secondItem="dQk-H8-Rex" secondAttribute="top" id="jG7-SL-b0a"/>
+                                                <constraint firstItem="YKU-UY-Aa7" firstAttribute="top" secondItem="N6y-MW-hCS" secondAttribute="bottom" constant="19" id="2fX-WB-RE2"/>
+                                                <constraint firstItem="VKV-4g-acm" firstAttribute="trailing" secondItem="YKU-UY-Aa7" secondAttribute="trailing" id="4pw-QW-L3z"/>
+                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="bottom" secondItem="VKV-4g-acm" secondAttribute="bottom" id="9hq-mo-nhA"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="YKU-UY-Aa7" secondAttribute="bottom" constant="1" id="HIt-7D-qfy"/>
+                                                <constraint firstItem="VKV-4g-acm" firstAttribute="trailing" secondItem="dQk-H8-Rex" secondAttribute="trailingMargin" id="SZV-0k-XQ1"/>
+                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="top" secondItem="VKV-4g-acm" secondAttribute="top" id="VTm-nF-7K1"/>
+                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="top" secondItem="dQk-H8-Rex" secondAttribute="top" id="aOY-gM-qrq"/>
+                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="leading" secondItem="dQk-H8-Rex" secondAttribute="leadingMargin" id="d2t-kV-5Bg"/>
+                                                <constraint firstItem="N6y-MW-hCS" firstAttribute="leading" secondItem="YKU-UY-Aa7" secondAttribute="leading" id="g2G-e2-tnd"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -135,6 +141,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eXF-fX-6LR"/>
+                    <connections>
+                        <outlet property="tableView" destination="tuu-ex-Stq" id="s8V-1x-3CJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tMj-tN-eWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
