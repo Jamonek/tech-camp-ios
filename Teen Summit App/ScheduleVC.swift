@@ -9,10 +9,16 @@
 import UIKit
 
 class ScheduleVC: BaseVC {
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var bubbleView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Schedule"
         // TODO: Schedule
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        
+        self.bubbleView.backgroundColor = UIColor(hexString: "315ABC")
     }
 }

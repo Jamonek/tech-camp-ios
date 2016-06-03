@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4017585B91DB23DE0F3571E2 /* Pods_Teen_Summit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1DE2633B484650859CD734 /* Pods_Teen_Summit_App.framework */; };
+		647B1A081D01E4E900D9D7FA /* AnnouncementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647B1A071D01E4E900D9D7FA /* AnnouncementCell.swift */; };
+		647B1A0B1D01F08600D9D7FA /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647B1A0A1D01F08600D9D7FA /* UIViewExt.swift */; };
 		64A345301D0082F900C1A938 /* AnnouncementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3452F1D0082F900C1A938 /* AnnouncementsVC.swift */; };
 		64A345321D00830300C1A938 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345311D00830300C1A938 /* ScheduleVC.swift */; };
 		64A345341D00830E00C1A938 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A345331D00830E00C1A938 /* LocationVC.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		647B1A071D01E4E900D9D7FA /* AnnouncementCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementCell.swift; sourceTree = "<group>"; };
+		647B1A0A1D01F08600D9D7FA /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		64A3452F1D0082F900C1A938 /* AnnouncementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsVC.swift; sourceTree = "<group>"; };
 		64A345311D00830300C1A938 /* ScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
 		64A345331D00830E00C1A938 /* LocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
@@ -101,6 +105,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		647B1A061D01E4C400D9D7FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				647B1A071D01E4E900D9D7FA /* AnnouncementCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		647B1A091D01F05700D9D7FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				647B1A0A1D01F08600D9D7FA /* UIViewExt.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		64A3452E1D0082CF00C1A938 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +158,8 @@
 		64C1D59B1CC284D6003F0AA4 /* Teen Summit App */ = {
 			isa = PBXGroup;
 			children = (
+				647B1A091D01F05700D9D7FA /* Extensions */,
+				647B1A061D01E4C400D9D7FA /* Models */,
 				64A3452E1D0082CF00C1A938 /* ViewControllers */,
 				64C1D59C1CC284D6003F0AA4 /* AppDelegate.swift */,
 				64C1D5A01CC284D6003F0AA4 /* Main.storyboard */,
@@ -367,10 +389,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647B1A0B1D01F08600D9D7FA /* UIViewExt.swift in Sources */,
 				64A345321D00830300C1A938 /* ScheduleVC.swift in Sources */,
 				64C1D5A51CC284D6003F0AA4 /* Teen_Summit_App.xcdatamodeld in Sources */,
 				64A345361D00831B00C1A938 /* MoreVC.swift in Sources */,
 				64C1D59D1CC284D6003F0AA4 /* AppDelegate.swift in Sources */,
+				647B1A081D01E4E900D9D7FA /* AnnouncementCell.swift in Sources */,
 				64A345301D0082F900C1A938 /* AnnouncementsVC.swift in Sources */,
 				64A3453A1D008E6500C1A938 /* BaseVC.swift in Sources */,
 				64A345341D00830E00C1A938 /* LocationVC.swift in Sources */,
